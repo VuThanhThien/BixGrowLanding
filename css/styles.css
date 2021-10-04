@@ -1074,7 +1074,13 @@ input[type='checkbox'] {
 .footer ul {
 	color: #707477;
 }
+.footer ul li:hover a{
+	color: rgb(99, 166, 253) ;
 
+}
+.footer .p-small:hover > a{
+	color: rgb(99, 166, 253) ;
+}
 .footer .li-space-lg li {
 	margin-bottom: 0.375rem;
 }
