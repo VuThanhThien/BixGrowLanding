@@ -1,576 +1,770 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
+    <meta name="description" content="Your description" />
+    <meta name="author" content="Your name" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
     <title>BixGrow Webpage</title>
-    
+
     <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-	<link href="fontawesome/css/all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-</head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-        <div class="container">
-            
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Alfy</a> -->
+      <div class="container">
+        <a class="navbar-brand logo-image" href="index.html"
+          ><img src="images/bixgrow-yellow.png" alt="alternative"
+        /></a>
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/bixgrow-yellow.png" alt="alternative"></a> 
+        <button
+          class="navbar-toggler p-0 border-0"
+          type="button"
+          data-toggle="offcanvas"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="how-it-works.html">How it works</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="terms.html">Features</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#details">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#video">Contact</a>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-solid-sm page-scroll" href="#header">Sign Up FREE</a>
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
-
+        <div
+          class="navbar-collapse offcanvas-collapse"
+          id="navbarsExampleDefault"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Product</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item page-scroll" href="how-it-works.html"
+                  >How it works</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="allfeatures.html"
+                  >Features</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#details">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <a class="btn-solid-sm page-scroll" href="#header">Sign Up FREE</a>
+          </span>
+        </div>
+        <!-- end of navbar-collapse -->
+      </div>
+      <!-- end of container -->
+    </nav>
 
     <!-- Header -->
     <header id="header" class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <h2>The all-in-one affiliate marketing solution for your ecommerce store.</h2>
-                        <p class="p-large">A reliable affiliate marketing software to manage your ambassadors and optimize affiliate programs for a smooth growth in your Shopify business.</p>
-                        
-                        <a class="btn-solid-lg" href="#">Install FREE on <i class="fab fa-shopify"></i> Shopify</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/header-bulb-table.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xl-5">
+            <div class="text-container">
+              <h2>
+                The all-in-one affiliate marketing solution for your ecommerce
+                store.
+              </h2>
+              <p class="p-large">
+                A reliable affiliate marketing software to manage your
+                ambassadors and optimize affiliate programs for a smooth growth
+                in your Shopify business.
+              </p>
 
-            <h3 class="h3-heading" style="text-align: center;margin-bottom: 40px;margin-top: 55px;">Freely explore our word-of-mouth marketing platform
-                with useful features and intuitive user interface
-                </h3>
-            <div class="row">
-                <div class="col-lg-12">
+              <a class="btn-solid-lg" href="#"
+                >Install FREE on <i class="fab fa-shopify"></i> Shopify</a
+              >
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-6 col-xl-7">
+            <div class="image-container">
+              <img
+                class="img-fluid"
+                src="images/header-bulb-table.png"
+                alt="alternative"
+              />
+            </div>
+            <!-- end of image-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
 
-                    <!-- Card -->
-                    <div class="card first">
-                        <div class="card-icon">
-                            <span class="fas fa-rocket green"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Set Up With Ease</h5>
-                            <div class="card-text">Easily manage your affiliate programs and set up default commission. Customize affiliate registration form and set up payment with just a few clicks.</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+        <h3
+          class="h3-heading"
+          style="text-align: center; margin-bottom: 80px; margin-top: 55px"
+        >
+          Freely explore our word-of-mouth marketing platform with useful
+          features and intuitive user interface
+        </h3>
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Card -->
+            <div class="card first">
+              <div class="card-icon">
+                <span class="fas fa-rocket green"></span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Set Up With Ease</h5>
+                <div class="card-text">
+                  Easily manage your affiliate programs and set up default
+                  commission. Customize affiliate registration form and set up
+                  payment with just a few clicks.
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
 
-                    <!-- Card -->
-                    <div class="card second">
-                        <div class="card-icon">
-                            <span class="far fa-clock green"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Expand Network & Increase Sales </h5>
-                            <div class="card-text">Convert customers to become ambassadors. Allow your affiliates to recruit more affiliates. Your sales will grow exponentially as the network expands.</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+            <!-- Card -->
+            <div class="card second">
+              <div class="card-icon">
+                <span class="far fa-clock green"></span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Expand Network & Increase Sales</h5>
+                <div class="card-text">
+                  Convert customers to become ambassadors. Allow your affiliates
+                  to recruit more affiliates. Your sales will grow exponentially
+                  as the network expands.
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
 
-                    <!-- Card -->
-                    <div class="card third">
-                        <div class="card-icon">
-                            <span class="far fa-comments green"></span>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Manage Your Affiliates</h5>
-                            <div class="card-text">Create unlimited referral programs with various commission types. Use simple referral links or unique coupon codes to track affiliate referral orders.</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
+            <!-- Card -->
+            <div class="card third">
+              <div class="card-icon">
+                <span class="far fa-comments green"></span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Manage Your Affiliates</h5>
+                <div class="card-text">
+                  Create unlimited referral programs with various commission
+                  types. Use simple referral links or unique coupon codes to
+                  track affiliate referral orders.
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of header -->
     <!-- end of header -->
 
-
-    <!-- Customers -->
-    <!-- <div class="slider-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <div id="counter">
-                        <div class="cell">
-                            <div class="counter-value number-count" data-count="2500">1</div>
-                        </div>
-                    </div>
-
-                    <p class="p-large">Startups and established companies are already using Alfy for their project management needs</p>
-
-                    <div class="slider-container">
-                        <div class="swiper-container image-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
-                                </div>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </div>  -->
-    <!-- end of customers -->
-
-
     <!-- Features -->
-    <!-- <div id="features" class="basic-1 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Enjoy all these features and more</h2>
-                    <img class="img-fluid" src="images/features.jpg" alt="alternative">
-                </div> 
-            </div> 
-            <div class="row">
-                <div class="col-lg-12">
+    <div id="features" class="accordion-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <h2 class="h2-heading">All you need to launch and grow your referral programs</h2>
+            <p class="p-heading">
+              Suspendisse vitae enim arcu. Aliquam convallis risus a felis
+              blandit, at mollis nisi bibendum. Aliquam nec purus at ex blandit
+              posuere nec a odio. Proin lacinia dolor justo
+            </p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+        <div class="row">
+          <div class="col-xl-5">
+            <div class="accordion" id="accordionExample">
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-icon">
+                  <span class="fas fa-user-plus"></span>
+                </div>
+                <!-- end of accordion-icon -->
+                <div class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Recruitment
+                  </button>
+                </div>
+                <!-- end of accordion-header -->
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>Expand affiliate network by:</p>
+                    <ul>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Sharing
+                        registration link to potential ambassadors
+                      </li>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Converting
+                        customers into brand advocates
+                      </li>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Multi-level
+                        Marketing
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end of accordion-collapse -->
+              </div>
+              <!-- end of accordion-item -->
+              <!-- end of accordion-item -->
 
-                    <div class="feature-container">
-                        <div class="feature-icon">
-                            <span class="fas fa-rocket"></span>
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-icon blue">
+                  <span class="fas fa-layer-group"></span>
+                </div>
+                <!-- end of accordion-icon -->
+                <div class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Tracking
+                  </button>
+                </div>
+                <!-- end of accordion-header -->
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Referral link
+                        generated for affiliates
+                      </li>
+                      <li class="d-flex">
+                        <i
+                          class="far fa-check-circle mr-2"
+                          style="padding-top: 5px"
+                        ></i>
+                        <div>
+                          Assign coupons, customize links & upload media to help
+                          ambassadors promote your business
                         </div>
-                        <h5>Project Tracking</h5>
-                    </div> 
+                      </li>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Review each
+                        referral recorded
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end of accordion-collapse -->
+              </div>
+              <!-- end of accordion-item -->
+              <!-- end of accordion-item -->
 
-                    <div class="feature-container">
-                        <div class="feature-icon second">
-                            <span class="fas fa-cog"></span>
-                        </div> 
-                        <h5>Feature Deployment</h5>
-                    </div>
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-icon purple">
+                  <span class="fas fa-wrench"></span>
+                </div>
+                <!-- end of accordion-icon -->
+                <div class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Customization
+                  </button>
+                </div>
+                <!-- end of accordion-header -->
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>White label
+                        email option
+                      </li>
+                      <li class="d-flex">
+                        <i
+                          class="far fa-check-circle mr-2"
+                          style="padding-top: 5px"
+                        ></i>
+                        <div>
+                          Freely customize affiliate sign-up page & email
+                          templates
+                        </div>
+                      </li>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Affiliate portal
+                        inside your own domain
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end of accordion-collapse -->
+              </div>
+              <!-- end of accordion-item -->
+              <!-- end of accordion-item -->
 
-                    <div class="feature-container">
-                        <div class="feature-icon third">
-                            <span class="far fa-paper-plane"></span>
-                        </div> 
-                        <h5>Seamless Integration</h5>
-                    </div>
+              <!-- Accordion Item -->
+              <div class="accordion-item">
+                <div class="accordion-icon orange">
+                  <span class="fas fa-chart-pie"></span>
+                </div>
+                <!-- end of accordion-icon -->
+                <div class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Analytics
+                  </button>
+                </div>
+                <!-- end of accordion-header -->
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>Analyze
+                        affiliate performance (<strong>clicks</strong>/
+                        <strong>orders</strong> / <strong>sales</strong> )
+                      </li>
+                      <li>
+                        <i class="far fa-check-circle mr-2"></i>View the top
+                        affiliates who has the best performance
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end of accordion-collapse -->
+              </div>
+              <!-- end of accordion-item -->
+              <!-- end of accordion-item -->
+            </div>
+            <!-- end of accordion -->
+          </div>
+          <!-- end of col -->
+          <div class="col-xl-7">
+            <div class="image-container">
+              <img
+                class="img-fluid"
+                src="images/features-dashboard.png"
+                alt="alternative"
+              />
+            </div>
+            <!-- end of image-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of accordion-1 -->
+    <!-- end of features -->
 
-                    <div class="feature-container">
-                        <div class="feature-icon fourth">
-                            <span class="far fa-comments"></span>
-                        </div> 
-                        <h5>Instant Messaging</h5>
-                    </div>
-
-                    <div class="feature-container">
-                        <div class="feature-icon fifth">
-                            <span class="fas fa-tachometer-alt"></span>
-                        </div> 
-                        <h5>Fast Connection</h5>
-                    </div> 
-
-                </div> 
-            </div> 
-        </div> 
-    </div>  -->
-
-    <!-- Details 1 -->
-    <div id="details" class="basic-2">
-        <div class="container">
-    <h2 class="h2-heading mb-5">All you need to launch and grow your referral programs</h2>
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <h2 class="underline">Recruitment</h2>
-                        <p>Expand affiliate network by:</p>
-                        <ul>
-                            <li><i class="far fa-check-circle mr-2"></i>Sharing registration link to potential ambassadors</li>
-                            <li><i class="far fa-check-circle mr-2"></i>Converting customers into brand advocates</li>
-                            <li><i class="far fa-check-circle mr-2"></i>Multi-level Marketing</li>
-                        </ul>
-                        <a class="read-more no-line blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/details-1.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details 2 -->
-    <div class="basic-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/details-2.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <h2 class="underline">Tracking</h2>
-                        <ul>
-                            <li><i class="far fa-check-circle mr-2"></i>Referral link generated for affiliates</li>
-                            <li class="d-flex"><i class="far fa-check-circle mr-2" style="padding-top: 5px;"></i><div>Assign coupons, customize links & upload media
-                                to help ambassadors promote your business</div></li>
-                            <li><i class="far fa-check-circle mr-2"></i>Review each referral recorded</li>
-                        </ul>
-                        <a class="read-more no-line blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of details 2 -->
-
-
-    <!-- Details 3 -->
-    <div class="basic-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <h2 class="underline">Customization</h2>
-                        <ul>
-                            <li><i class="far fa-check-circle mr-2"></i>White label email option</li>
-                            <li class="d-flex"><i class="far fa-check-circle mr-2" style="padding-top: 5px;"></i><div>Freely customize affiliate sign-up page &
-                                email templates
-                                </div></li>
-                            <li><i class="far fa-check-circle mr-2"></i>Affiliate portal inside your own domain</li>
-                        </ul>
-                        <a class="read-more no-line blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/details-3.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-4 -->
-    <!-- end of details 3 -->
-
-    <!-- Details 4 -->
-    <div class="basic-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/details-2.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <h2 class="underline">Analytics</h2>
-                        <ul>
-                            <li><i class="far fa-check-circle mr-2"></i>Analyze affiliate performance (clicks/orders/sales)</li>
-                            <li><i class="far fa-check-circle mr-2"></i>View the top affiliates who has the best performance</li>
-                        </ul>
-                        <a class="read-more no-line blue" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of details 2 -->
-
-
-    <!-- Video -->
     <div id="video" class="basic-5 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Powering communication and team collaboration</h2>
-                        <p>Explain ten man uncivil engaged conduct. Am likewise betrayed as declared absolute do. Taste oh spoke about no solid of hills up shade. Occasion so bachelor humoured striking by attended doubtful be it and all right</p>
-                        <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    
-                    <!-- Video Preview -->
-                    <div class="video-wrapper">
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
-                            <img class="img-fluid" src="images/video-preview.jpg" alt="alternative">
-                            <span class="video-play-button">
-                                <span></span>
-                            </span>
-                        </a>
-                    </div> <!-- end of video-wrapper -->
-                    <!-- end of video preview -->
+      <h2 class="h2-heading w-100 text-center" style="margin-bottom: 5rem">
+        One place for all affiliate management tasks
+      </h2>
+      <div class="container">
+        <div class="row" style="position: relative">
+          <div class="line"></div>
+          <div class="d-flex justify-content-between w-100">
+            <div class="icon-square">
+              <i class="fas fa-2x fa-link"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-chart-line fa-2x"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-comment-alt fa-2x"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-percent fa-2x"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-code fa-2x"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-sitemap fa-2x"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-mail-bulk fa-2x"></i>
+            </div>
+            <div class="icon-square">
+              <i class="fas fa-file-import fa-2x"></i>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between w-100">
+            <div class="text-square">Link Tracking</div>
+            <div class="text-square">Performance Analytics</div>
+            <div class="text-square">Checkout Popup</div>
+            <div class="text-square">Coupon Tracking</div>
+            <div class="text-square">Embeded Portal</div>
+            <div class="text-square">Network Marketing</div>
+            <div class="text-square">Email Automation</div>
+            <div class="text-square">Media Upload</div>
+          </div>
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-5 -->
-    <!-- end of video -->
-
-
-    <!-- Testimonials -->
     <div class="slider-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Card Slider -->
+            <div class="slider-container">
+              <div class="swiper-container card-slider">
+                <div class="swiper-wrapper">
+                  <!-- Slide -->
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img
+                        class="quotes"
+                        src="images/quotes.svg"
+                        alt="alternative"
+                      />
+                      <div class="card-body">
+                        <p class="testimonial-text">
+                          I just finished my trial period and was so amazed with
+                          the support and good results that I purchased Alfy pro
+                          version for my business. It's an amazingly good tool
+                        </p>
+                        <div class="details">
+                          <img
+                            class="testimonial-image"
+                            src="images/testimonial-1.jpg"
+                            alt="alternative"
+                          />
+                          <div class="text">
+                            <div class="testimonial-author">Samantha Bloom</div>
+                            <div class="occupation">Team Leader - Syncnow</div>
+                          </div>
+                          <!-- end of text -->
+                        </div>
+                        <!-- end of testimonial-details -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of swiper-slide -->
+                  <!-- end of slide -->
 
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">I just finished my trial period and was so amazed with the support and good results that I purchased Alfy pro version for my business. It's an amazingly good tool</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="images/testimonial-1.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Samantha Bloom</div>
-                                                    <div class="occupation">Team Leader - Syncnow</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                  <!-- Slide -->
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img
+                        class="quotes"
+                        src="images/quotes.svg"
+                        alt="alternative"
+                      />
+                      <div class="card-body">
+                        <p class="testimonial-text">
+                          Don't know how I managed to get work done without Alfy
+                          until now. The speed of this application is amazing
+                          and it allows me to keep in touch with my colleagues
+                          at work
+                        </p>
+                        <div class="details">
+                          <img
+                            class="testimonial-image"
+                            src="images/testimonial-2.jpg"
+                            alt="alternative"
+                          />
+                          <div class="text">
+                            <div class="testimonial-author">Mike Page</div>
+                            <div class="occupation">Developer - Chainlink</div>
+                          </div>
+                          <!-- end of text -->
+                        </div>
+                        <!-- end of testimonial-details -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of swiper-slide -->
+                  <!-- end of slide -->
 
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Don't know how I managed to get work done without Alfy until now. The speed of this application is amazing and it allows me to keep in touch with my colleagues at work</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="images/testimonial-2.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Mike Page</div>
-                                                    <div class="occupation">Developer - Chainlink</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                  <!-- Slide -->
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img
+                        class="quotes"
+                        src="images/quotes.svg"
+                        alt="alternative"
+                      />
+                      <div class="card-body">
+                        <p class="testimonial-text">
+                          This app has the potential of becoming a mandatory
+                          tool in every marketer's day to day operations flow.
+                          Keeping in touch with family and friends has never
+                          been easier
+                        </p>
+                        <div class="details">
+                          <img
+                            class="testimonial-image"
+                            src="images/testimonial-3.jpg"
+                            alt="alternative"
+                          />
+                          <div class="text">
+                            <div class="testimonial-author">Mary Longhorn</div>
+                            <div class="occupation">Manager - Firstdev</div>
+                          </div>
+                          <!-- end of text -->
+                        </div>
+                        <!-- end of testimonial-details -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of swiper-slide -->
+                  <!-- end of slide -->
 
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">This app has the potential of becoming a mandatory tool in every marketer's day to day operations flow. Keeping in touch with family and friends has never been easier</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="images/testimonial-3.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Mary Longhorn</div>
-                                                    <div class="occupation">Manager - Firstdev</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                  <!-- Slide -->
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img
+                        class="quotes"
+                        src="images/quotes.svg"
+                        alt="alternative"
+                      />
+                      <div class="card-body">
+                        <p class="testimonial-text">
+                          Searching for a great video conferencing app was
+                          difficult but thankfully I found Alfy and I can't
+                          praise it enough. The team created an awesome
+                          communication experience
+                        </p>
+                        <div class="details">
+                          <img
+                            class="testimonial-image"
+                            src="images/testimonial-4.jpg"
+                            alt="alternative"
+                          />
+                          <div class="text">
+                            <div class="testimonial-author">Ronny Drummer</div>
+                            <div class="occupation">Designer - Sawdust</div>
+                          </div>
+                          <!-- end of text -->
+                        </div>
+                        <!-- end of testimonial-details -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of swiper-slide -->
+                  <!-- end of slide -->
+                </div>
+                <!-- end of swiper-wrapper -->
 
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Searching for a great video conferencing app was difficult but thankfully I found Alfy and I can't praise it enough. The team created an awesome communication experience</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="images/testimonial-4.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Ronny Drummer</div>
-                                                    <div class="occupation">Designer - Sawdust</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-2 -->
-    <!-- end of testimonials -->
-
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- end of add arrows -->
+              </div>
+              <!-- end of swiper-container -->
+            </div>
+            <!-- end of slider-container -->
+            <!-- end of card slider -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
 
     <!-- Invitation -->
     <div class="basic-6">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4>Ioniq will change the way you think about CRM solutions due to it’s advanced tools and integrated functionalities</h4>
-                    <a class="btn-outline-lg page-scroll" href="sign-up.html">Get started</a>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h4>
+              Take back your time and automate your referral program today
+            </h4>
+            <a class="btn-outline-lg page-scroll" href="sign-up.html"
+              >Get started</a
+            >
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-3 -->
     <!-- end of invitation -->
-
 
     <!-- Footer -->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-col first">
-                        <h6>Integrations</h6>
-                        <p class="p-small">Shopify App</p>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col second">
-                        <h6>Product</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="how-it-works.html">How it works</a></li>
-                            <li><a href="features.html">Features</a></li>
-                            <li><a class="page-scroll" href="#">Document</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col third">
-                        <h6>Contact BixGrow</h6>
-                        <p class="p-small"><a href="contact.html">Contact</a></p>
-                        <p class="p-small"><a href="#">Policy</a></p>
-                    </div> <!-- end of footer-col -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-flex">
+            <div class="col-lg-3">
+              <a class="logo-image" href="index.html"
+                ><img
+                  class="img-footer"
+                  src="images/bixgrow-yellow.png"
+                  alt="alternative"
+              /></a>
+              <p class="p-small">
+                Copyright © <a href="#your-link">2021 BixGrow</a>
+              </p>
+              <span class="fa-stack" style="margin-left: -5px">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+            <div class="col-lg-3">
+              <h6>Integrations</h6>
+              <p class="p-small">Shopify App</p>
+            </div>
+            <!-- end of footer-col -->
+            <div class="col-lg-3">
+              <h6>Product</h6>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li><a href="how-it-works.html">How it works</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a class="page-scroll" href="#">Document</a></li>
+              </ul>
+            </div>
+            <!-- end of footer-col -->
+            <div class="col-lg-3">
+              <h6>Contact BixGrow</h6>
+              <p class="p-small"><a href="contact.html">Contact</a></p>
+              <p class="p-small"><a href="#">Policy</a></p>
+            </div>
+            <!-- end of footer-col -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of footer -->
     <!-- end of footer -->
 
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <a class="logo-image" href="index.html"><img class="img-footer" src="images/bixgrow-yellow.png" alt="alternative"></a> 
-                    <p class="p-small">Copyright © <a href="#your-link">2021 BixGrow</a></p>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-    	
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-</body>
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+  </body>
 </html>
