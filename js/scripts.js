@@ -197,4 +197,22 @@
 		$(this).blur();
 	});
 
+
+    /**Click change features images */
+    $('#headingOne').click(function(){
+        $("#main-feature-image").attr('src',"images/features.jpg");
+    });
+
+    $('#headingTwo').click(function(){
+        $("#main-feature-image").attr('src',"images/features-dashboard.png");
+    });
+
+    $('#headingThree').click(function(){
+        $("#main-feature-image").attr('src',"images/header-background.png");
+    });
+
+    $('#headingFour').click(function(){
+        $("#main-feature-image").attr('src',"images/article-details-large.jpg");
+    });
+
 })(jQuery);
