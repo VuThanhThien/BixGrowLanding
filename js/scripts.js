@@ -200,19 +200,31 @@
 
     /**Click change features images */
     $('#headingOne').click(function(){
-        $("#main-feature-image").attr('src',"images/features.jpg");
+        $("#main-feature-image").attr('src',"images/features-home-1.png");
     });
 
     $('#headingTwo').click(function(){
-        $("#main-feature-image").attr('src',"images/features-dashboard.png");
+        $("#main-feature-image").attr('src',"images/features-home-2.png");
     });
 
     $('#headingThree').click(function(){
-        $("#main-feature-image").attr('src',"images/header-background.png");
+        $("#main-feature-image").attr('src',"images/features-home-3.png");
     });
 
     $('#headingFour').click(function(){
-        $("#main-feature-image").attr('src',"images/article-details-large.jpg");
+        $("#main-feature-image").attr('src',"images/features-home-4.png");
     });
 
+    /**link install app */
+    $(".bixgrow-signup-link").attr('href',"https://apps.shopify.com/bixgrow-affiliate-marketing?surface_detail=affiliate+marketing&surface_inter_position=1&surface_intra_position=13&surface_type=search");
+    /**link FAQ */
+    $(".bixgrow-faq-link").attr('href',"https://docs.bixgrow.com/");
+
+    $('.open-bixgrow-doc').click(function(){
+        window.open("https://docs.bixgrow.com");
+    });
+
+    $('.open-bixgrow-app').click(function(){
+        window.open("https://apps.shopify.com/bixgrow-affiliate-marketing?surface_detail=affiliate+marketing&surface_inter_position=1&surface_intra_position=13&surface_type=search");
+    });
 })(jQuery);

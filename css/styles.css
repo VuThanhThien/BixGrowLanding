@@ -568,19 +568,22 @@ input[type='checkbox'] {
 }
 
 .header .card-icon {
-	width: 64px;
-	height: 64px;
 	margin-right: auto;
-	margin-bottom: 2rem;
 	margin-left: auto;
+	margin-bottom: 2rem;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 4px;
-	background-color: #0099ff;
+	background-color: #ffddaa;
 	text-align: center;
 }
 
 .header .card-icon .far,
 .header .card-icon .fas {
-	color: #ffffff;
+	color: #ff9900;
 	font-size: 2rem;
 	line-height: 64px;
 }
@@ -702,6 +705,10 @@ input[type='checkbox'] {
 .underline {
 	color: #ff9900;
     text-decoration: underline;
+}
+.basic-3 .underline, .basic-4 .underline{
+	color: #ff9900;
+	text-decoration: none;
 }
 .basic-2 p {
 	margin-bottom: 0.5rem;
@@ -924,6 +931,7 @@ input[type='checkbox'] {
 	background-color: #ffffff;
 	color: #272556;
 }
+
 @keyframes pulse-border {
 	0% {
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -1210,7 +1218,7 @@ a:hover.back-to-top {
 /********************/
 .accordion-1 {
 	padding-top: 9.25rem;
-	padding-bottom: 9.75rem;
+	padding-bottom: 7.75rem;
 	background: url('../images/features-background.jpg') center center no-repeat;
 	background-size: cover;
 }
@@ -1299,7 +1307,23 @@ a:hover.back-to-top {
 	padding: 0.375rem 0 0 0;
 	color: #ffffff;
 }
-
+.accordion-1 .btn-outline-lg{
+	border-color: #ffffff;
+	color: #ffffff;
+	display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border-radius: 30px;
+    background-color: #ff9900;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.accordion-1 .btn-outline-lg:hover {
+	background-color: #ffffff;
+	color: #272556;
+}
 /*************************/
 /*     Media Queries     */
 /*************************/	
