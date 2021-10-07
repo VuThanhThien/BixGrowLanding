@@ -227,4 +227,7 @@
     $('.open-bixgrow-app').click(function(){
         window.open("https://apps.shopify.com/bixgrow-affiliate-marketing?surface_detail=affiliate+marketing&surface_inter_position=1&surface_intra_position=13&surface_type=search");
     });
+    $('.open-bixgrow-chat').click(function(){
+        $crisp.push(["do", "chat:open"])
+    });
 })(jQuery);

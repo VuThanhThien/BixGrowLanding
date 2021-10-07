@@ -202,9 +202,9 @@ a:hover {
 .btn-solid-sm {
 	display: inline-block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	border: 1px solid #0099ff;
+	border: 1px solid #ff9900;
 	border-radius: 4px;
-	background-color: #0099ff;
+	background-color: #ff9900;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -214,9 +214,9 @@ a:hover {
 }
 
 .btn-solid-sm:hover {
-	border: 1px solid #0099ff;
+	border: 1px solid #ff9900;
 	background-color: transparent;
-	color: #0099ff;
+	color: #ff9900;
 	text-decoration: none;
 }
 
@@ -1144,8 +1144,8 @@ input[type='checkbox'] {
 a.back-to-top {
 	position: fixed;
 	z-index: 999;
-	right: 12px;
-	bottom: 12px;
+	right: 35px;
+	bottom: 90px;
 	display: none;
 	width: 42px;
 	height: 42px;
@@ -1327,6 +1327,14 @@ a:hover.back-to-top {
 /*************************/
 /*     Media Queries     */
 /*************************/	
+
+.open-bixgrow-doc, .open-bixgrow-app, .open-bixgrow-chat{
+	cursor: pointer;
+}
+.open-bixgrow-doc:hover, .open-bixgrow-app:hover, .open-bixgrow-chat:hover{
+	color: #0099ff;
+	transition: all 0.2s;
+}
 /* Min-width 768px */
 @media (min-width: 768px) {
 
