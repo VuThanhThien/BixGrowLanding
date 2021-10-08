@@ -904,7 +904,11 @@ input[type='checkbox'] {
 .basic-6 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
-	background-color: #272556;
+	/* background-color: #272556; */
+	background-image: url(../images/bga.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	text-align: center;
 }
 
