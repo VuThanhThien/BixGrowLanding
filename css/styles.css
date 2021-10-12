@@ -704,7 +704,7 @@ input[type='checkbox'] {
 }
 .underline {
 	color: #ff9900;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .basic-3 .underline, .basic-4 .underline{
 	color: #ff9900;
